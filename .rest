@@ -6,3 +6,15 @@ GET http://localhost:3001/api/diagnoses
 
 ###
 GET http://localhost:3001/api/patients
+
+###
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+  "name": "Marek Zelinka",
+  "dateOfBirth": "1995-11-10",
+  "ssn": "100278-77E",
+  "gender": "male",
+  "occupation": "Software Engineer"
+}
